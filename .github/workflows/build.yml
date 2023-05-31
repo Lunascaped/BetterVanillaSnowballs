@@ -5,6 +5,7 @@
 
 name: build
 on: [pull_request, push]
+workflow_dispatch: # Put here!!
 
 jobs:
   build:
